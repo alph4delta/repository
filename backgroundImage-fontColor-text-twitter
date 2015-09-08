@@ -1,0 +1,9 @@
+<div class=" Hero is-narrow Hero--basicStyles  Hero--blog "><div class="Hero-wrap"><div class="Hero-wrap-inner is-light"><h1>The Twitter Media Blog</h1><h5>Tracking cool, meaningful uses of Twitter in TV, music, sports, government, journalism and more</h5></div></div></div>
+
+<style>
+body {
+ font-family: "Helvetica" ;
+color: #F10366 ;
+    background-image: url(https://g.twimg.com/Header_Media_0.jpg);
+}
+</style>
