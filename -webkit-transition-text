@@ -1,0 +1,21 @@
+<html>
+<head>
+<style> 
+body {
+    width: 100px;
+    height: 100px;
+      -webkit-transition: opacity 400ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    background-color: green;
+font-family: "bauhaus 93";
+font-size: 25px;
+color: #F4B205
+}
+</style>
+</head>
+<body>
+
+<p>These are Text made by -webkit -tansition CSS Hacked Tags Style</p>
+
+</body>
+</html>
+
