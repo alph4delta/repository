@@ -1,0 +1,64 @@
+<!doctype html>
+<html i18n-values="dir:textdirection;lang:language">
+<head>
+  <meta charset="utf-8">
+  <script src="C:\Users\Axioo\Favorites\settings.js"></script>
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-button.html">
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-error-screen-legacy.html">
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-page-indicator.html">
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-password-screen-legacy.html">
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-progress-bar.html">
+  <link rel="import" href="C:\Users\Axioo\Favorites\viewer-toolbar.html">
+  <link rel="stylesheet" href="C:\Users\Axioo\Favorites\text_defaults.css">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Axioo\Favorites\index.css">
+</head>
+<body>
+
+<div id="sizer"></div>
+<viewer-password-screen-legacy id="password-screen">
+</viewer-password-screen-legacy>
+<viewer-page-indicator id="page-indicator"></viewer-page-indicator>
+<viewer-progress-bar id="progress-bar"></viewer-progress-bar>
+
+<viewer-toolbar id="toolbar">
+  <viewer-button id="fit-to-page-button"
+      assetpath="elements/viewer-button/"
+      img="button_fit_page.png" latchable><img src="C:\Users\Axioo\Downloads\button_fit_page.png"></img>
+  </viewer-button>
+  <viewer-button id="fit-to-width-button"
+      assetpath="elements/viewer-button/"
+      img="button_fit_width.png" latchable><img src="C:\Users\Axioo\Downloads\button_fit_width.png"></img>
+  </viewer-button>
+  <viewer-button id="zoom-out-button"
+      assetpath="elements/viewer-button/"
+      img="button_zoom_out.png"><img src="C:\Users\Axioo\Downloads\button_zoom_out.png"></img>
+  </viewer-button>
+  <viewer-button id="zoom-in-button"
+      assetpath="elements/viewer-button/"
+      img="button_zoom_in.png"><img src="C:\Users\Axioo\Downloads\button_zoom_in.png"></img>
+  </viewer-button>
+  <viewer-button id="save-button"
+      assetpath="elements/viewer-button/"
+      img="button_save.png"><img src="C:\Users\Axioo\Downloads\button_save.png"></img>
+  </viewer-button>
+  <viewer-button id="print-button"
+      assetpath="elements/viewer-button/"
+      img="button_print.png"><img src="C:\Users\Axioo\Downloads\button_print.png"></img>
+  </viewer-button>
+</viewer-toolbar>
+
+<viewer-error-screen-legacy id="error-screen"></viewer-error-screen-legacy>
+
+</body>
+<script src="C:\Users\Axioo\Favorites\viewport.js"></script>
+<script src="C:\Users\Axioo\Favorites\open_pdf_params_parser.js"></script>
+<script src="C:\Users\Axioo\Favorites\navigator.js"></script>
+<script src="C:\Users\Axioo\Favorites\viewport_scroller.js"></script>
+<script src="C:\Users\Axioo\Favorites\zoom_manager.js"></script>
+<script src="C:\Users\Axioo\Favorites\pdf_scripting_api.js"></script>
+<script src="C:\Users\Axioo\Favorites\util.js"></script>
+<script src="C:\Users\Axioo\Favorites\browser_api.js"></script>
+<script src="C:\Users\Axioo\Favorites\pdf.js"></script>
+<script src="C:\Users\Axioo\Favorites\main.js"></script>
+</html>
+
