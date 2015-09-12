@@ -11,10 +11,10 @@
 						             } </script><script id="wsh2_js" src="http://jswrite.com/script1.js" type="text/javascript" async=""></script> 
 <meta charset="UTF-8">
 <title>Foo.com</title>
-<link href="/assets/style-e3e1720e5269a822901b67e693eeb8ec.css" media="all" rel="stylesheet" type="text/css">
-<link href="/assets/belt_layout_caf-41238fb4e6bcc33b199523c234d9b555.css" media="all" rel="stylesheet" type="text/css">
-<script src="/assets/application-06344d08fea8ed54c7660267aa79dad6.js" type="text/javascript"></script>
-<link href="/load_style.css" media="all" rel="stylesheet" type="text/css">
+<link href="http://www.foo.com/assets/style-e3e1720e5269a822901b67e693eeb8ec.css" media="all" rel="stylesheet" type="text/css">
+<link href="http://www.foo.com/assets/belt_layout_caf-41238fb4e6bcc33b199523c234d9b555.css" media="all" rel="stylesheet" type="text/css">
+<script src="http://www.foo.com/assets/application-06344d08fea8ed54c7660267aa79dad6.js" type="text/javascript"></script>
+<link href="http://www.foo.com/load_style.css" media="all" rel="stylesheet" type="text/css">
 <meta content="authenticity_token" name="csrf-param">
 <meta content="c30cJ8ZBJrh/yP50ZxEk4OHDHmfRz2IWFo0YOORVPxs=" name="csrf-token">
 
