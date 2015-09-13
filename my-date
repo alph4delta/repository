@@ -1,0 +1,4 @@
+Ini hanya jalan di:
+http://htmledit.squarefree.com/
+
+<script type="text/javascript">document.write(""+mydate.getDate()+" "+month[mydate.getMonth()]+" "+mydate.getFullYear());</script><script>document.write(getURLParameter("city"))</script> 
