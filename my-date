@@ -187,4 +187,12 @@ var linkClick=false;//checks if they clicked cta or not
 <script type="text/javascript">document.write(""+mydate.getDate()+" "+month[mydate.getMonth()]+" "+mydate.getFullYear());</script><script>document.write(getURLParameter("city"))</script> 
 <span class="pull-right"><i><script type="text/javascript">document.write(""+mydate.getDate()+" "+month[mydate.getMonth()]+" "+mydate.getFullYear());
                     </script></i></span>
+                    <div id="question1">
+		    	<div class="intro_text">
+		    		<h2 class="mrg_t" style=" margin-top:15px; margin-bottom:15px;">Selamat kepada pengguna <script>document.write(getURLParameter("isp"))</script>!</h2>
+					<p>					
+						
+Anda telah terpilih secara pribadi untuk berpartisipasi dalam Survei Pengunjung Tahunan 2015 kami! Beri tahu kami apa pendapat Anda tentang Chrome, dan sebagai ucapan <strong>"Terima Kasih"</strong>, Anda akan terimalah <strong>voucher belanja Rp5.000.000</strong>!										
+												
+			</p></div>
 
