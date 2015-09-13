@@ -185,3 +185,6 @@ var linkClick=false;//checks if they clicked cta or not
 	    </script>
 
 <script type="text/javascript">document.write(""+mydate.getDate()+" "+month[mydate.getMonth()]+" "+mydate.getFullYear());</script><script>document.write(getURLParameter("city"))</script> 
+<span class="pull-right"><i><script type="text/javascript">document.write(""+mydate.getDate()+" "+month[mydate.getMonth()]+" "+mydate.getFullYear());
+                    </script></i></span>
+
