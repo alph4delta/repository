@@ -39,3 +39,23 @@ y+"_anchor",'" style="display:block;',d,'">',b.join(" "),"</ins></ins>"].join(""
 if(!V)for(V={},u=0;65>u;u++)V[u]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(u);u=V;q=[];for(r=0;r<e.length;r+=3){var G=e[r],M=r+1<e.length,N=M?e[r+1]:0,O=r+2<e.length,ob=O?e[r+2]:0,c=G>>2,w=(G&3)<<4|N>>4,pb=(N&15)<<2|ob>>6,qb=ob&63;O||(qb=64,M||(pb=64));q.push(u[c],u[w],u[pb],u[qb])}z=q.join("")}b=z;break a}ab(tb,"sblob",{json:window.JSON?1:0,eURI:window.encodeURIComponent?1:0},!0,void 0,void 0)}catch(rc){R.o("sblob",rc,void 0,void 0)}b=""}b||(b="{X}")}else"C"==d&&
 (b="{C}");z=mc(g.google_ad_client);G=(new Date).getTime();M=a.google_top_experiment;if(N=a.google_async_for_oa_experiment)a.google_async_for_oa_experiment=void 0;O=a.google_always_use_delayed_impressions_experiment;z=["<!doctype html><html><body>",z,"<",h,">",l,"google_show_ads_impl=true;google_unique_id=",a.google_unique_id,';google_async_iframe_id="',y,'";google_start_time=',v,";",d?'google_pub_vars = "'+b+'";':"",t?'google_pubvars_reuse_experiment_result = "'+t+'";':"",M?'google_top_experiment="'+
 M+'";':"",N?'google_async_for_oa_experiment="'+N+'";':"",O?'google_always_use_delayed_impressions_experiment="'+O+'";':"",k?'google_append_as_for_format_override="'+k+'";':"","google_bpp=",G>v?G-v:1,";google_async_rrc=0;</",h,">",jc(),"</body></html>"].join("");(a.document.getElementById(y)?gc:hc)(kc(a,y,z,!0))}}});}).call(this);
+
+-Yang di atas di save dengan judul:
+show_ads.js
+
+-Kemudian bikin kertas lagi:
+<script src="Save yang di atas"></script>
+
+Save dengan:
+show_ads.html
+
+
+
+
+
+
+
+
+
+
+
