@@ -105,4 +105,16 @@ Last-Modified: Wed, 29 Jul 2015 19:59:16 GMT
 Server: Apache
 X-IsProduction: Yes
 " full-frame=""></iframe>
+<br><iframe id="plugin" type="application/x-google-chrome-pdf" src="http://www.marketo.com/_assets/uploads/Inbound-Marketing.pdf" stream-url="blob:chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/8C2C88B1-7ED3-4085-83B5-7802BE28B5FB" headers="Accept-Ranges: bytes
+Cache-Control: public, max-age=63298
+Connection: keep-alive
+Content-Length: 592452
+Content-Type: application/pdf
+Date: Fri, 18 Sep 2015 15:49:32 GMT
+ETag: &quot;5eb06b-90a44-51c0901ba0c47&quot;
+Expires: Sat, 19 Sep 2015 09:24:30 GMT
+Last-Modified: Wed, 29 Jul 2015 19:58:12 GMT
+Server: Apache
+X-IsProduction: Yes
+" full-frame=""></iframe>
 </br>
