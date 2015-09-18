@@ -1,0 +1,1 @@
+<script language="JavaScript" type="text/javascript" src="https://global.adserver.yahoo.com/a?f=1197721556&amp;l=LREC&amp;c=r&amp;at=content=%22no_expandable%22&amp;site-country=id&amp;t=1442604388.726473&amp;rs=guid:xheL5zk4LjGXqLrrVDqWNR94MTgwLgAAAACCHzsj%3Bspid:978500434%3Bypos:LREC"></script>
