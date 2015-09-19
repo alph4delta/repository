@@ -57,6 +57,11 @@ gapi.load("",{callback:window["gapi_onload"],_c:{"jsl":{"ci":{"deviceType":"desk
 -Kertas 1 lagi:
 <script src="Save yang di atas"></script>
 Save Name: +1button.html
+-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+ <div class="g-plusone" data-size="tall"></div>
+
+
 
 
 
