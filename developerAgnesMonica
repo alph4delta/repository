@@ -74,6 +74,29 @@ Save Name: +1button.html
   </body>
 </html>
 
+-<br><p>Explicit render: to instagram.com/agnesmonicazone:</p>
+
+<html>
+  <head>
+    <title>Demo: Explicit render of a +1 button</title>
+    <link rel="canonical" href="https://instagram.com/agnesmonicazone/" target="_"/><meta content="The Official of Agnes Monica Zone📷 The 1st and Biggest Agnes Monica fanpage!&#10;DREAM, Believe, and Make it happen! 😘😊 cp: agnesmonicaonline@yahoo.com" name="description" />
+    <script src="https://apis.google.com/js/platform.js" async defer>
+    </script>
+    <script>
+      {"parsetags": "explicit"}
+      function renderWidget() {
+        gapi.plusone.render("widget-div" );
+      }
+    </script>
+  </head>
+  <body>
+    <a href="https://instagram.com/agnesmonicazone/" target="_"/><meta content="The Official of Agnes Monica Zone📷 The 1st and Biggest Agnes Monica fanpage!&#10;DREAM, Believe, and Make it happen! 😘😊 cp: agnesmonicaonline@yahoo.com" onClick="renderWidget();" target="_">Render the +1 button</a>
+    <div id="widget-div"></div>
+  </body>
+</html>
+
+
+
 
 
 
