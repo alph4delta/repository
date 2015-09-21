@@ -1,0 +1,8 @@
+<body>
+<script>
+function myJsFunc() {
+    alert("MuhammadAdi hacked: myJsFunc");
+  }
+</script>
+ <a href="http://alph4delta.blogdetik.com/2015/09/21/islamicfinderorg" target="_" onclick="myJsFunc();">Run JavaScript Code</a>
+</body>
