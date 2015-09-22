@@ -1,0 +1,251 @@
+<td class="TextSmallBlue" valign="top" align="right" dir="ltr">  <b>Prayer Times: </b> <select class="ft11" onchange="location=this.options[this.selectedIndex].value;">  <option value="http://www.islamicfinder.org/cityPrayer.php?country=none">Select a country</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=afghanistan">Afghanistan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=albania">Albania</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=algeria">Algeria</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=andorra">Andorra</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=angola">Angola</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=anguilla">Anguilla</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=antarctica">Antarctica</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=antigua_barbuda">Antigua Barbuda</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=argentina">Argentina</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=armenia">Armenia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=aruba">Aruba</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ashmore_cartier_islands">Ashmore Cartier Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=australia">Australia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=austria">Austria</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=azerbaijan">Azerbaijan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bahamas">Bahamas</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bahrain">Bahrain</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bangladesh">Bangladesh</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=barbados">Barbados</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bassas_de_india">Bassas De India</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=belarus">Belarus</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=belgium">Belgium</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=belize">Belize</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=benin">Benin</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bermuda">Bermuda</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bhutan">Bhutan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bolivia">Bolivia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bosnia_herzegovina">Bosnia Herzegovina</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=botswana">Botswana</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bouvet_island">Bouvet Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=brazil">Brazil</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=british_indian_ocean_territory">British Indian Ocean Ter..</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=british_virgin_islands">British Virgin Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=brunei_darussalam">Brunei Darussalam</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=bulgaria">Bulgaria</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=burkina_faso">Burkina Faso</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=burma">burma</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=burundi">Burundi</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cambodia">Cambodia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cameroon">Cameroon</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=canada">Canada</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cape_verde">Cape Verde</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cayman_islands">Cayman_Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=central_african_republic">Central African Republic</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=chad">Chad</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=chile">Chile</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=china">China</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=christmas_island">Christmas Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=clipperton_island">Clipperton Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cocos_islands">Cocos Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=colombia">Colombia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=comoros">Comoros</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=congo">Congo</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=congo_democratic_republic">Congo Democratic Republic</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cook_islands">Cook Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=coral_sea_islands">Coral Sea Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=costa_rica">Costa Rica</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cote_dlvoire">Cote Dlvoire</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=croatia">Croatia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cuba">Cuba</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=cyprus">Cyprus</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=czech_republic">Czech_republic</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=denmark">Denmark</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=djibouti">Djibouti</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=dominica">Dominica</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=dominican_republic">Dominican Republic</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=east_timor">East Timor</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ecuador">Ecuador</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=egypt">Egypt</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=el_salvador">El Salvador</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=equatorial_guinea">Equatorial Guinea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=eritrea">Eritrea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=estonia">Estonia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ethiopia">Ethiopia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=europa_island">Europa Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=falkland_islands_malvinas">Falkland Islands Malvinas</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=faroe_islands">Faroe Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=fiji">Fiji</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=finland">Finland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=france">France</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=french_guiana">French Guiana</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=french_polynesia">French Polynesia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=french_southern_antarctic_lands">French S. Antarctic Lands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=gabon">Gabon</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=gambia">Gambia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=georgia">Georgia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=germany">Germany</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ghana">Ghana</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=gibraltar">Gibraltar</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=glorioso_islands">Glorioso Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=greece">Greece</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=greenland">Greenland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=grenada">Grenada</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guadeloupe">Guadeloupe</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guatemala">Guatemala</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guernsey">guernsey</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guinea">Guinea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guinea_bissau">Guinea Bissau</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guyana">Guyana</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=guam">Guam</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=haiti">Haiti</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=heard_island_mcdonald_islands">Heard Is. Mcdonald Is.</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=honduras">Honduras</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=hong_kong">Hong Kong</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=hungary">Hungary</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=iceland">Iceland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=india">India</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=indonesia">Indonesia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=iran">Iran</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=iraq">Iraq</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ireland">Ireland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=isle_of_man">Isle Of Man</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=italy">Italy</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=jamaica">Jamaica</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=jan_mayen">Jan Mayen</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=japan">Japan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=jersey">jersey</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=jordan">Jordan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=juan_de_nova_island">Juan De Nova Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=kazakstan">Kazakstan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=kenya">Kenya</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=kiribati">Kiribati</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=kuwait">Kuwait</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=kyrgyzstan">Kyrgyzstan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=lao_peoples_democratic_republic">Lao Peoples Dem. Rep.</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=latvia">Latvia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=lebanon">Lebanon</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=lesotho">Lesotho</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=liberia">Liberia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=libya">Libya</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=liechtenstein">Liechtenstein</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=lithuania">Lithuania</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=luxembourg">Luxembourg</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=macau">Macau</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=macedonia">Macedonia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=madagascar">Madagascar</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=malawi">Malawi</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=malaysia">Malaysia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=maldives">Maldives</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mali">Mali</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=malta">Malta</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=marshall_islands">Marshall Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=martinique">Martinique</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mauritania">Mauritania</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mauritius">Mauritius</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mayotte">Mayotte</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mexico">Mexico</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=micronesia">Micronesia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=moldova">Moldova</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=monaco">Monaco</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mongolia">Mongolia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=montserrat">Montserrat</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=morocco">Morocco</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=mozambique">Mozambique</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=namibia">Namibia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=nauru">Nauru</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=nepal">Nepal</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=netherlands">Netherlands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=netherlands_antilles">Netherlands Antilles</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=new_caledonia">New Caledonia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=new_zealand">New Zealand</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=nicaragua">Nicaragua</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=niger">Niger</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=nigeria">Nigeria</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=niue">Niue</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=no_mans_land">No Mans Land</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=norfolk_island">Norfolk Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=north_korea">North Korea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=norway">Norway</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=oceans">Oceans</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=oman">Oman</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=pakistan">Pakistan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=palau">Palau</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=palestine">Palestine</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=panama">Panama</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=papua_new_guinea">Papua New Guinea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=paracel_islands">Paracel Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=paraguay">Paraguay</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=peru">Peru</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=philippines">Philippines</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=pitcairn_islands">Pitcairn Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=poland">Poland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=portugal">Portugal</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=puerto_rico">Puerto Rico</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=qatar">Qatar</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=reunion">Reunion</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=romania">Romania</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=russia">Russia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=rwanda">Rwanda</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saint_helena">Saint Helena</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saint_kitts_nevis">Saint Kitts Nevis</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saint_lucia">Saint Lucia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saint_pierre_miquelon">Saint Pierre Miquelon</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saint_vincent_grenadines">Saint Vincent Grenadines</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=samoa">Samoa</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=san_marino">San Marino</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=sao_tome_and_principe">Sao Tome and Principe</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=saudi_arabia">Saudi Arabia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=senegal">Senegal</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=seychelles">Seychelles</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=sierra_leone">Sierra Leone</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=singapore">Singapore</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=slovakia">Slovakia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=slovenia">Slovenia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=solomon_islands">Solomon_islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=somalia">Somalia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=south_africa">South Africa</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=south_georgia_the_south_sandwitch_islands">S. Georgia S. Sandwitch Is.</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=south_korea">South Korea</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=spain">Spain</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=spratly_islands">Spratly Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=sri_lanka">Sri Lanka</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=sudan">Sudan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=suriname">Suriname</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=svalbard_and_jan_mayen">Svalbard &amp; Jan Mayen</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=swaziland">Swaziland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=sweden">Sweden</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=switzerland">Switzerland</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=syria">Syria</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=taiwan">Taiwan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tajikistan">Tajikistan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tanzania">Tanzania</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=thailand">Thailand</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=togo">Togo</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tokelau">Tokelau</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tonga">Tonga</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=trinidad_tobago">Trinidad Tobago</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tromelin_island">Tromelin Island</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tunisia">Tunisia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=turkey">Turkey</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=turkmenistan">Turkmenistan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=turks_caicos_islands">Turks Caicos Islands</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=tuvalu">Tuvalu</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=uganda">Uganda</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=ukraine">Ukraine</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=under_sea_features">Under Sea Features</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=united_arab_emirates">United Arab Emirates</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=united_kingdom">United Kingdom</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=uruguay">Uruguay</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=usa">USA</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=uzbekistan">Uzbekistan</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=vanuatu">Vanuatu</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=vatican_city">Vatican City</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=venezuela">Venezuela</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=viet_nam">Viet Nam</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=wallis_futuna">Wallis Futuna</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=yemen">Yemen</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=yugoslavia">Yugoslavia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=zambia">Zambia</option>
+<option value="http://www.islamicfinder.org/cityPrayer.php?country=zimbabwe">Zimbabwe</option> </select> <input type="hidden" name="lang" value=""> </td>
