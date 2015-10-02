@@ -1,0 +1,12 @@
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0755306585925256821208\46blogName\75AplikasiAdi2\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75//aplikasiadi2.blogspot.com/search\46blogLocale\75in\46v\0752\46homepageUrl\75http://aplikasiadi2.blogspot.com/\46targetPostID\075281816793750275525\46blogPostOrPageUrl\75http://aplikasiadi2.blogspot.com/2015/10/documentcookie.html\46vt\75-3760125276423797392',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script>
