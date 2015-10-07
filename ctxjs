@@ -1,0 +1,21 @@
+<body>
+<head>
+<html>
+
+<script>
+
+{
+var c=document.createElement("iframe");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src","http://view.contextualyield.com/scjs/ctxjs/log_ctxjs_popularity.php?cctx=WW&amp;dctx=alph4delta.blogdetik.com&amp;uctx=http%3A%2F%2Falph4delta.blogdetik.com%2F2015%2F06%2F30%2Finstallrepositoryatgithub&amp;pctx=100&amp;affctx=775&amp;chctx=NaN'};");
+
+document.body.appendChild(c)
+}
+
+</script>
+
+</html>
+</head>
+</body>
