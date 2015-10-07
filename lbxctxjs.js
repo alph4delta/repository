@@ -1,4 +1,4 @@
--Perhatikan, di line 16 tanda kutip di Kanan, satu tang di dalam:
+-Perhatikan, di line 16 paragraph src, tanda kutip di Kanan, satu yang di dalam:
 <body>
 <head>
 <html>
