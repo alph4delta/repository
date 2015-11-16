@@ -1,0 +1,29 @@
+<style>
+body {
+    background-image: url(http://blog.babbel.com/wp-content/themes/bonanza_20140328181932/blog/blog-pattern-3148c0312545b8dcc1fa79c3412eb1bf.png);
+    background-repeat: repeat;
+    height: 222px;
+font-family: "Helvetica";
+    font-size: 50px;
+    line-height: 19px;
+       background-color: #ffffff;
+padding-top: 95px;
+padding-left: 95px;
+display: table;
+    width: 100%; 
+margin-bottom: 20px;
+
+    
+}
+</style>
+<div class="masthead">
+    <div class="masthead-inner">
+      <div class="container">
+              <h1>The Babbel Blog</h1>
+    <p class="lead">
+      language learning in the digital age    </p>
+  	
+      </div>
+    </div>
+  </div>
+  
