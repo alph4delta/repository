@@ -1,0 +1,958 @@
+
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="toxC09Hmp5SeWLEKqOvxLHXl6UESEyd2YTt-iiloDWU">
+<title>TowerData  |  Batch Append</title>
+
+<meta name="robots" content="index, nofollow">
+<link rel="stylesheet" type="text/css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/style.css" media="screen">
+<!--<link rel="image_src" href="https://www.rapleaf.com/files/2012/05/Landing_InstantData.png">-->
+<!--<link rel="stylesheet" id="sociablecss-css" href="https://www.rapleaf.com/wp-content/plugins/sociable/css/sociable.css?ver=3.6.1" type="text/css" media="all">-->
+<link rel="stylesheet" id="wpfb-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/wp-filebase_css.php" type="text/css" media="all">
+<link rel="stylesheet" id="timeline-css-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/timeline.css" type="text/css" media="all">
+<link rel="stylesheet" id="customScroll-css-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.mCustomScrollbar.css" type="text/css" media="all">
+<link rel="stylesheet" id="woo-layout-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-ui-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/wp-ui.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpui-light-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/wpui-light.css" type="text/css" media="all">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div>
+<!--<script src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.js" async=""> </script>-->
+<script type="text/javascript" src="./Rapleaf_Batch_Append_files/jquery.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery-migrate.min.js"></script>
+<!--<script type="text/javascript" src="https://www.rapleaf.com/wp-content/plugins/sociable/js/sociable.js?ver=3.6.1"></script>-->
+<!--<script type="text/javascript" src="https://www.rapleaf.com/wp-content/plugins/sociable/js/addtofavorites.js?ver=3.6.1"></script>-->
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.timeline.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/comment-reply.min.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/third-party.js"></script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/general.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpUIOpts = {"wpUrl":"http:\/\/www.rapleaf.com","pluginUrl":"http:\/\/www.rapleaf.com\/wp-content\/plugins\/wp-ui\/","enableTabs":"off","enableAccordion":"off","enableSpoilers":"off","enableDialogs":"off","tabsEffect":"none","effectSpeed":"","accordEffect":"none","alwaysRotate":"disable","tabsEvent":"click","collapsibleTabs":"off","accordEvent":"click","topNav":"off","accordAutoHeight":"off","accordCollapsible":"off","accordEasing":"false","mouseWheelTabs":"false","bottomNav":"off","tabPrevText":"","tabNextText":"","spoilerShowText":"","spoilerHideText":"","cookies":"off","hashChange":"off","docWriteFix":"off","bleeding":"off","linking_history":"off","misc_options":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Rapleaf_Batch_Append_files/wp-ui.js"></script>
+<!--<script type="text/javascript" src="https://www.rapleaf.com/wp-content/plugins/easy-spoiler/js/easy-spoiler.js?ver=1.2"></script>-->
+<!--<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.rapleaf.com/xmlrpc.php?rsd">-->
+<!--<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.rapleaf.com/wp-includes/wlwmanifest.xml">-->
+<!--<link rel="prev" title="The Consumer Data Marketplace" href="http://www.rapleaf.com/under-the-hood/">-->
+<!--<link rel="next" title="Get in Touch" href="http://www.rapleaf.com/about-us/contact_us/">-->
+<link type="text/css" rel="stylesheet" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/easy-spoiler.css"><link rel="Shortcut Icon" type="image/x-icon" href="http://1tfw022aiv5f3sed5a3s5zl2fna.wpengine.netdna-cdn.com/wp-content/themes/RapLeaf_v2/favicon.ico"><script type="text/javascript">var base_url_sociable = 'https://www.rapleaf.com/wp-content/plugins/sociable/'</script>
+<script type="text/javascript" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/plusone.js" gapi_processed="true">
+</script><link rel="stylesheet" id="wop-css" href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/wop.css" type="text/css" media="all">
+<!-- Theme version -->
+<meta name="generator" content="Whitelight 1.1.8">
+<meta name="generator" content="WooFramework 5.3.12">
+<meta name="generator" content="Google Website Optimizer for WordPress - http://www.masteringlandingpages.com/gwo4wp"><!-- Google Website Optimizer Control Script -->
+<script>
+function utmx_section(){}function utmx(){}
+(function(){var k='0819661952',d=document,l=d.location,c=d.cookie;function f(n){
+if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.
+length+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+d.write('<sc'+'ript src="'+
+'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
++'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
++new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+</script><script src="./Rapleaf_Batch_Append_files/siteopt.js" type="text/javascript" charset="utf-8"></script>
+<!-- End of Google Website Optimizer Control Script -->
+<!-- Woo Custom Typography -->
+<style type="text/css">
+body { font:normal 13px/1.5em "Helvetica Neue", Helvetica, sans-serif;color:#585858; }
+#navigation, #navigation .nav a { font:normal 17px/1.4em "Helvetica Neue", Helvetica, sans-serif;color:#4B4B4B; }
+#intro h1 { font:normal 23px/1.3em "Helvetica Neue", Helvetica, sans-serif;color:#585858; }
+.page header h1 { font:bold 22px/1.2em "Helvetica Neue", Helvetica, sans-serif;color:#252525; }
+.post header h1, .post header h1 a:link, .post header h1 a:visited { font:bold 22px/1.2em "Helvetica Neue", Helvetica, sans-serif;color:#252525; }
+.post-meta { font:normal 13px/1em "Helvetica Neue", Helvetica, sans-serif;color:#727272; }
+.entry, .entry p { font:normal 13px/1.5em "Helvetica Neue", Helvetica, sans-serif;color:#585858; } h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Helvetica, sans-serif, arial, sans-serif; }
+.widget h3 { font:bold 13px/1em "Helvetica Neue", Helvetica, sans-serif;color:#585858; }
+.widget h3 { font:bold 13px/1em "Helvetica Neue", Helvetica, sans-serif;color:#585858; }
+</style>
+
+<!-- Alt Stylesheet -->
+<link href="./Rapleaf_Batch_Append_files/default.css" rel="stylesheet" type="text/css">
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/default.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Stylesheet -->
+<link href="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/custom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" charset="utf-8" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/autoNumeric.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      jQuery(document).ready(function(){
+        var $ = jQuery
+
+        $('#header .site-title').click(function(){
+          window.location = "https://www.towerdata.com/";
+        })
+
+        //PRICING
+        if($('body').is('.page-id-1163')){
+
+          $('.page-id-1163 .entry .faq li > a').not('.more a').click(function(){
+            $(this).parents('ul').find('.opened').not($(this).parent()).removeClass('opened')
+            $(this).parent().toggleClass('opened');
+            return false;
+          })
+
+          $('tr.field td:not(.section)').hover(function(){
+            var tr=$(this).parents('tr');
+            field=tr.find('input').attr('id').replace('field_','');
+            $('.field_content').hide()
+            $('.field_content.'+field).show();
+            //$('.field_content.'+field).find('h5:first').text(tr.find('.checkbox').text())
+            $('#field_tip').css('top',(tr.position().top-40)).show()
+            if(tr.is(':not(.selected)')) tr.find('td').addClass('hover')
+          },function(){
+            var tr=$(this).parents('tr');
+            $('#field_tip').hide()
+            if(tr.is(':not(.selected)')) tr.find('td').removeClass('hover')
+          });
+
+          $('tr.field td:not(.section)').click(function(){
+            var tr=$(this).parents('tr');
+            tr.find('td').removeClass('hover')
+            tr.toggleClass('selected')
+            if(tr.is('.selected')){
+              tr.find('input').attr('checked','true')
+              calculatePrice()
+            }else{
+              tr.find('input').removeAttr('checked')
+              calculatePrice()
+            }
+          })
+          $('.select-all-th').click(function(e){
+            var th=$('.select-all-th')
+            var check=th.find('input')
+            if(th.is('.checked')){
+                $('tr.field').removeClass('selected').find('input').removeAttr('checked')
+                th.removeClass('checked')
+                if(check.attr('checked')) check.removeAttr('checked')
+            }else{
+                $('tr.field').addClass('selected').find('input').attr('checked','true')
+                th.addClass('checked')
+                if(!check.attr('checked')) check.attr('checked',true)
+            }
+            calculatePrice()
+          });
+
+          $('.sumcol_email input').autoNumeric({vMax: '500000000', mDec: '0', wEmpty: 'zero'}).keyup(function(e){
+            /*
+            // Allow: backspace, delete, tab, escape, and enter
+            if ( event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 ||
+                 // Allow: Ctrl+A
+                (event.keyCode == 65 && event.ctrlKey === true) ||
+                 // Allow: home, end, left, right
+                (event.keyCode >= 35 && event.keyCode <= 39)) {
+                     // let it happen, don't do anything
+                     return;
+            }
+            else {
+                // Ensure that it is a number and stop the keypress
+                if (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105 )) {
+                    event.preventDefault();
+                }
+            }
+            var num_emails=parseInt($('.sumcol_email input').val().replace(/\D/g,''))
+            if(num_emails>=500000000) $('.sumcol_email input').val('500,000,000')
+            //$('.sumcol_email input').val($('.sumcol_email input').val().replace(/\D/g,'').replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"))
+            $('.sumcol_email input').val($('.sumcol_email input').val().replace(/\D/g,'').replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"))
+            */
+            calculatePrice()
+
+          })
+          $(window).scroll(function(){
+            var summaryTop = 442;//var summaryTop=254;//=$('.summary').offset().top
+            if($(window).scrollTop()>summaryTop){
+              $('.summary').css({position:'fixed',top:6,height:'103px'})
+            }else{
+              $('.summary').css({position:'absolute',top:'auto',height:'134px'})
+            }
+            if($(window).scrollTop()>summaryTop && $(window).scrollTop()<=1200){
+              $('.faq').css({position:'fixed',top:-45}).show()
+            }else if($(window).scrollTop()>1200){
+              $('.faq').hide()
+            }else{
+              $('.faq').css({position:'absolute',top:'auto'}).show()
+            }
+          })
+          //add label for min and discount values
+          $('.sumcol_total .sum_name').append(' <span class="label"></span>');
+          //
+          loadCookie()
+        }
+      })
+      function calculatePrice(){
+        var $ = jQuery
+        var num_emails=parseInt($('.sumcol_email input').val().replace(/\D/g,''))
+        $('td.checkbox:not(.select-all-th)').each(function(i,n){
+          el=$(n)
+          var rate=parseFloat(el.attr('rel'));
+          var price = 0.01;
+	  //var price=(el.is($('tr').eq(1).find('.checkbox')) || el.is($('tr').eq(2).find('.checkbox'))) ? .005 : .01;
+          if(num_emails){
+            el.next().text(Math.round(rate*num_emails).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+            if(rate*num_emails<1000000) el.next().next().next().text('$' + (rate*num_emails*price).toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+            else  el.next().next().next().text('$' + Math.round((rate*num_emails*price)).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+          }else{
+            el.next().text('–');
+            el.next().next().next().text('$0.00');
+          }
+        })
+        var field_count=$('tr.selected').length;
+        $('.field_count').text(field_count)
+        if(field_count>2){
+          $('.first_field').text($('tr.selected:first .checkbox').text())
+          $('.and_x_more').text('and '+(field_count-1)+' more')
+        }else if(field_count==2){
+          $('.first_field').text($('tr.selected:first .checkbox').text())
+          $('.and_x_more').text('and '+$('tr.selected:eq(1) .checkbox').text())
+        }else if(field_count==1){
+          $('.first_field').text($('tr.selected:first .checkbox').text())
+          $('.and_x_more').text('')
+        }else{
+          $('.first_field').text('')
+          $('.and_x_more').text('')
+        }
+        var total_cost=0;
+        $('tr.selected .price').each(function(i,n){
+          total_cost+=parseFloat($(n).text().replace(/[^0-9|\.]/g,''))
+        });
+
+        $('.total_cost').next('p').text("")
+
+        if(total_cost<=50){
+          $('.sumcol_total .label').text('minimum').removeClass('discount').addClass('min');
+          $('.total_cost').text('$50');
+          $('.total_cost').next('p').text("It costs $ to make magic happen")
+        }else{
+          if(total_cost<20000){
+            $('.sumcol_total .label').text('').removeClass('min discount')
+          }else if(total_cost<110000){
+            var discount_factor=(Math.floor(total_cost/10000)*5/100)
+            total_cost=total_cost-total_cost*discount_factor
+            $('.sumcol_total .label').removeClass('min').addClass('discount')
+            $('.sumcol_total .label').text(Math.floor(discount_factor*100)+'% off')
+          }else if(total_cost<600000){
+            if(total_cost<200000){
+              discount_factor=.5
+            }else if(total_cost<300000){
+              discount_factor=.55
+            }else if(total_cost<400000){
+              discount_factor=.6
+            }else if(total_cost<500000){
+              discount_factor=.65
+            }else if(total_cost<600000){
+              discount_factor=.7
+            }else{
+              discount_factor=.75
+            }
+            total_cost=total_cost-total_cost*discount_factor
+            $('.sumcol_total .label').removeClass('min').addClass('discount')
+            $('.sumcol_total .label').text(Math.floor(discount_factor*100)+'% off')
+          }else{
+            total_cost=total_cost-total_cost*.75
+            $('.sumcol_total .label').removeClass('min').addClass('discount')
+            $('.sumcol_total .label').text('75% off')
+          }
+          if(total_cost<1000000){
+            $('.total_cost').text('$'+total_cost.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"))
+          }else{
+            $('.total_cost').text('$'+Math.round(total_cost).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"))
+          }
+
+
+        }
+
+        writeCookie()
+      }
+      var field_keys={
+        field_age:1,
+        field_gender:2,
+        field_zip:5,
+        field_education:6,
+        field_hnw:864,
+        field_home_length:824,
+        field_home_income:8,
+        field_home_owner:10,
+        field_home_value:834,
+        field_marital:9,
+        field_occupation:11,
+        field_children:7,
+        field_art:47,
+        field_auto:15,
+        field_blogging:58,
+        field_books:14,
+        field_business:21,
+        field_health:1435,
+        field_news:41,
+        field_baby:1375,
+        field_donor:38,
+        field_cooking:1385,
+        field_beauty:1415,
+        field_discount:1425,
+        field_garden:25,
+        field_brand:1395,
+        field_homeimprovement:35,
+        field_luxury:55,
+        field_magazine:1445,
+        field_outdoor:1455,
+        field_pets:1465,
+        field_powershopper:1405,
+        field_sports:1475,
+        field_tech:23,
+        field_travel:71
+      }
+      var field_ids={
+         "1":"field_age",
+         "2":"field_gender",
+         "5":"field_zip",
+         "6":"field_education",
+         "864":"field_hnw",
+         "824":"field_home_length",
+         "8":"field_home_income",
+         "10":"field_home_owner",
+         "834":"field_home_value",
+         "9":"field_marital",
+         "11":"field_occupation",
+         "7":"field_children",
+         "47":"field_art",
+         "15":"field_auto",
+         "58":"field_blogging",
+         "14":"field_books",
+         "21":"field_business",
+         "1435":"field_health",
+         "41":"field_news",
+         "1375":"field_baby",
+         "38":"field_donor",
+         "1385":"field_cooking",
+         "1415":"field_beauty",
+         "1425":"field_discount",
+         "25":"field_garden",
+         "1395":"field_brand",
+         "35":"field_homeimprovement",
+         "55":"field_luxury",
+         "1445":"field_magazine",
+         "1455":"field_outdoor",
+         "1465":"field_pets",
+         "1405":"field_powershopper",
+         "1475":"field_sports",
+         "23":"field_tech",
+         "71":"field_travel"
+       }
+      // Load the selected fields from their cookie
+        function loadCookie() {
+          var selected_fields = jQuery.cookie('selected_fields') || ''
+          selectedFields = selected_fields.split(',')
+          if(selected_fields!=''){
+            for (var i = 0; i < selectedFields.length; i++) {
+              jQuery("#"+field_ids[selectedFields[i]]).parents('tr').addClass('selected').find('input').attr('checked','true')
+            }
+            //all have been selected
+            if(jQuery('.field input').not(':checked').length<1){
+              jQuery('.select-all-th').addClass('checked')
+              jQuery('.select-all-th input').attr('checked',true)
+            }
+
+          }else{
+            jQuery('#field_age, #field_gender, #field_zip').parent().click()
+          }
+          calculatePrice()
+
+        }
+        // Write their selected fields to the cookie
+        function writeCookie() {
+          var fields = []
+          jQuery('input[type=checkbox]:checked').each(function(i,n) {
+            fields.push(field_keys[jQuery(n).attr('id')])
+          })
+          jQuery.cookie('selected_fields', '' + fields, { expires: 30, domain: '.rapleaf.com', path: '/'})
+        }
+        /*!
+         * jQuery Cookie Plugin
+         * https://github.com/carhartl/jquery-cookie
+         *
+         * Copyright 2011, Klaus Hartl
+         * Dual licensed under the MIT or GPL Version 2 licenses.
+         * http://www.opensource.org/licenses/mit-license.php
+         * http://www.opensource.org/licenses/GPL-2.0
+         */
+        (function(jQuery) {
+            var $=jQuery;
+            $.cookie = function(key, value, options) {
+
+                // key and at least value given, set cookie...
+                if (arguments.length > 1 && (!/Object/.test(Object.prototype.toString.call(value)) || value === null || value === undefined)) {
+                    options = $.extend({}, options);
+
+                    if (value === null || value === undefined) {
+                        options.expires = -1;
+                    }
+
+                    if (typeof options.expires === 'number') {
+                        var days = options.expires, t = options.expires = new Date();
+                        t.setDate(t.getDate() + days);
+                    }
+
+                    value = String(value);
+
+                    return (document.cookie = [
+                        encodeURIComponent(key), '=', options.raw ? value : encodeURIComponent(value),
+                        options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
+                        options.path    ? '; path=' + options.path : '',
+                        options.domain  ? '; domain=' + options.domain : '',
+                        options.secure  ? '; secure' : ''
+                    ].join(''));
+                }
+
+                // key and possibly options given, get cookie...
+                options = value || {};
+                var decode = options.raw ? function(s) { return s; } : decodeURIComponent;
+
+                var pairs = document.cookie.split('; ');
+                for (var i = 0, pair; pair = pairs[i] && pairs[i].split('='); i++) {
+                    if (decode(pair[0]) === key) return decode(pair[1] || ''); // IE saves cookies with empty string as "c; ", e.g. without "=" as opposed to EOMB, thus pair[1] may be undefined
+                }
+                return null;
+            };
+        })(jQuery);
+    </script>
+ <!--<script id="outbrainPostRecRankRequestID_0" async="async" type="text/javascript" src="./Rapleaf_Batch_Append_files/get"></script><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */-->
+<!--.en-markup-crop-options {-->
+    <!--top: 18px !important;-->
+    <!--left: 50% !important;-->
+    <!--margin-left: -100px !important;-->
+    <!--width: 200px !important;-->
+    <!--border: 2px rgba(255,255,255,.38) solid !important;-->
+    <!--border-radius: 4px !important;-->
+<!--}-->
+
+<!--.en-markup-crop-options div div:first-of-type {-->
+    <!--margin-left: 0px !important;-->
+<!--}-->
+<!--</style><link rel="stylesheet" type="text/css" id="cssLinkID" href="./Rapleaf_Batch_Append_files/outbrainWidget.css"><link rel="stylesheet" type="text/css" href="chrome-extension://edkibgpollgbhnjalcdlpmbjmdgohjko/build/content.css?1.0.2|0x3cec" data-__hs-item="true"></head><style type="text/css">embed[type*="application/x-shockwave-flash"],embed[src*=".swf"],object[type*="application/x-shockwave-flash"],object[codetype*="application/x-shockwave-flash"],object[src*=".swf"],object[codebase*="swflash.cab"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid*="d27cdb6e-ae6d-11cf-96b8-444553540000"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"]{	display: none !important;}</style>-->
+
+
+<body class="page page-id-1163 page-template-default mainhome chrome layout-full">
+
+
+<div id="wrapper">
+
+    <div id="content">
+    	<div class="page col-full">
+
+			<section id="main" class="col-left">
+
+
+	            <article class="post-1163 page type-page status-publish hentry">
+
+	                <section class="entry">
+	                	<h2>Get data on your emails<br> Start personalizing content for your customers</h2>
+<div style="font-size: large; position: relative; left: 82px; margin-bottom: 30px">
+<div style="font-size: large">To get started:</div>
+<ol style="margin-left: 20px; margin-top: 20px">
+<li>Enter the number of emails in your list</li>
+<li>Click on the data fields you are interested in</li>
+<li>Get an estimate of pricing for a batch append</li>
+</ol>
+<div style="font-size: large">Or <a target="_blank"  href="https://dashboard.towerdata.com/users/sign_up">create a free account</a> to upload your file of email addresses and get an exact match report for free</div>
+</div>
+<div class="summary">
+<div id="price_summary">
+<div class="sumcol_email sumcol">
+<div class="sum_name">Number of Emails</div>
+<p>      <input type="text" name="emails" value="3,500">
+    </p></div>
+<div class="sumcol_fields sumcol">
+<div class="sum_name">Fields Selected</div>
+<div class="field_count">3</div>
+<p>      <span class="first_field"> Age</span><br>
+      <span class="and_x_more">and 2 more</span>
+    </p></div>
+<div class="sumcol_total sumcol">
+<div class="sum_name">Estimated Price</div>
+<div class="total_cost">$57.40</div>
+<p></p></div>
+<p></p></div>
+<div class="cta">
+    Upload your file<br>
+    for an <strong>exact</strong> quote:<br>
+<a href="https://dashboard.towerdata.com/users/sign_up" target="_blank" class="woo-sc-button  custom large" style="background:;border-color:"><span class="woo-">Create A Free Account</span></a>
+  </div>
+</div>
+<div class="faq">
+<h6>Frequently Asked Questions</h6>
+<ul>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">How is price calculated?</a>
+<p>Our pricing calculator gives you a quick estimate of how much data we have on your list. We take the estimated no. of matches (i.e. our average match rates) and multiply it by the field price for each data field you selected. Every list is like a unique snowflake, so prices will vary: higher if we have more matches on your list, lower if we have less. You only pay for data we match to your list.</p>
+</li>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">What's an estimated match?</a>
+<p>The “estimated matches” column indicates the number of matches we expect to make on your list for that given data point. We calculate this according to our average match rate % for US consumer email addresses. i.e: Gender has a 80% match rate on average. For a list of 10,000 emails, we estimate we will match 8,000 with Gender data.</p>
+</li>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">What is a field price?</a>
+<p>Each data field we have (eg. age, gender, occupation) has a price. You only pay this price when we match that data field to an email address in your list. Most are just a penny per match.</p>
+</li>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">Where's your data dictionary?</a>
+<p><a href="http://cdn2.hubspot.net/hub/68599/file-1395991259-pdf/pdf/TowerDataDictionary.pdf" target="_blank">Click here</a> for our Data Dictionary. It provides a detailed description and all possible values we return for a given data field.</p>
+</li>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">How do I purchase?</a>
+<p>To purchase, just click on the <a target="_blank" href="https://dashboard.towerdata.com/users/sign_up">Get Started</a> button. Have the file you want to upload ready, then you will be prompted to select the fields you wish to purchase; Just like shopping online: it will be a painless few seconds before you get your data!</p>
+</li>
+<li><a href="http://cdn2.hubspot.net/hub/68599/file-1401273906-html/html/rapleaf-batch-append-save7.html?t=1430843525362#">Do you offer bulk discounts?</a>
+<p>Yes we do! If you have more than 1 million email addresses, contact us at <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@towerdata.com" target="_blank">info@towerdata.com</a> or call us at (937) 839-2556 for a quote.</p>
+</li>
+<li class="more"><a target="_parent" href="http://intelligence.towerdata.com/about-us/faq/">More FAQs</a></li>
+</ul></div>
+<div id="pricing_table">
+<h3>Which fields would you like to purchase?</h3>
+<table cellspacing="0">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td class="checkbox select-all-th"><input type="checkbox" id="select_all"> Select All</td>
+<td class="matches">Estimated Matches</td>
+<td class="price-th">Field Price</td>
+<td class="estimate">Estimated Price</td>
+</tr>
+<tr class="field alt-table-row selected">
+<td rowspan="3" class="section">
+<div class="section-title section-title-demo">
+      <br>&nbsp;<br>&nbsp;<br>
+      Demographic<br>Data</div>
+</td>
+<td class="checkbox" rel=".49"><input type="checkbox" id="field_age" checked="checked"> Age</td>
+<td>1,715</td>
+<td>$0.01</td>
+<td class="price">$17.15</td>
+</tr>
+<tr class="field selected">
+<td class="checkbox" rel=".80"><input type="checkbox" id="field_gender" checked="checked"> Gender</td>
+<td>2,800</td>
+<td>$0.01</td>
+<td class="price">$28.00</td>
+</tr>
+<tr class="field alt-table-row selected">
+<td class="checkbox" rel=".35"><input type="checkbox" id="field_zip" checked="checked"> Zip</td>
+<td>1,225</td>
+<td>$0.01</td>
+<td class="price">$12.25</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+</tr>
+<tr class="field first alt-table-row">
+<td rowspan="9" class="section">
+<div class="section-title section-title-household">
+      <br>&nbsp;<br>&nbsp;<br>
+      Household<br>Data</div>
+</td>
+<td class="checkbox" rel=".37"><input type="checkbox" id="field_home_income"> Household Income</td>
+<td>1,295</td>
+<td>$0.01</td>
+<td class="price">$12.95</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".38"><input type="checkbox" id="field_marital"> Marital Status</td>
+<td>1,330</td>
+<td>$0.01</td>
+<td class="price">$13.30</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".40"><input type="checkbox" id="field_children"> Presence of Children</td>
+<td>1,400</td>
+<td>$0.01</td>
+<td class="price">$14.00</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".40"><input type="checkbox" id="field_home_owner"> Home Owner Status</td>
+<td>1,400</td>
+<td>$0.01</td>
+<td class="price">$14.00</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".41"><input type="checkbox" id="field_home_value"> Home Market Value</td>
+<td>1,435</td>
+<td>$0.01</td>
+<td class="price">$14.35</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".40"><input type="checkbox" id="field_home_length"> Length of Residence</td>
+<td>1,400</td>
+<td>$0.01</td>
+<td class="price">$14.00</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".41"><input type="checkbox" id="field_hnw"> Net Worth</td>
+<td>560</td>
+<td>$0.01</td>
+<td class="price">$5.60</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".09"><input type="checkbox" id="field_occupation"> Occupation</td>
+<td>315</td>
+<td>$0.01</td>
+<td class="price">$3.15</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".37"><input type="checkbox" id="field_education"> Education</td>
+<td>1,295</td>
+<td>$0.01</td>
+<td class="price">$12.95</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+</tr>
+<tr class="field first alt-table-row">
+<td rowspan="6" class="section">
+<div class="section-title section-title-interest">
+      <br>&nbsp;<br>&nbsp;<br>
+      Interest<br>Data</div>
+</td>
+<td class="checkbox" rel=".07"><input type="checkbox" id="field_art"> Arts &amp; Crafts</td>
+<td>245</td>
+<td>$0.01</td>
+<td class="price">$2.45</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".01"><input type="checkbox" id="field_blogging"> Blogging</td>
+<td>35</td>
+<td>$0.01</td>
+<td class="price">$0.35</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".15"><input type="checkbox" id="field_books"> Books</td>
+<td>525</td>
+<td>$0.01</td>
+<td class="price">$5.25</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".03"><input type="checkbox" id="field_business"> Business</td>
+<td>105</td>
+<td>$0.01</td>
+<td class="price">$1.05</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".20"><input type="checkbox" id="field_health"> Health &amp; Wellness</td>
+<td>700</td>
+<td>$0.01</td>
+<td class="price">$7.00</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".06"><input type="checkbox" id="field_news"> News &amp; Current Events</td>
+<td>210</td>
+<td>$0.01</td>
+<td class="price">$2.10</td>
+</tr>
+<tr class="alt-table-row">
+<td colspan="5">&nbsp;</td>
+</tr>
+<tr class="field first">
+<td rowspan="17" class="section">
+<div class="section-title section-title-purchase">
+      <br>&nbsp;<br>&nbsp;<br>
+      Purchase<br>Data</div>
+</td>
+<td class="checkbox" rel=".06"><input type="checkbox" id="field_auto"> Automotive</td>
+<td>210</td>
+<td>$0.01</td>
+<td class="price">$2.10</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".01"><input type="checkbox" id="field_baby"> Baby Product Buyer</td>
+<td>35</td>
+<td>$0.01</td>
+<td class="price">$0.35</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".08"><input type="checkbox" id="field_beauty"> Beauty</td>
+<td>280</td>
+<td>$0.01</td>
+<td class="price">$2.80</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".42"><input type="checkbox" id="field_donor"> Charitable Donor</td>
+<td>1,470</td>
+<td>$0.01</td>
+<td class="price">$14.70</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".16"><input type="checkbox" id="field_cooking"> Cooking</td>
+<td>560</td>
+<td>$0.01</td>
+<td class="price">$5.60</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".14"><input type="checkbox" id="field_discount"> Discount Shopper</td>
+<td>490</td>
+<td>$0.01</td>
+<td class="price">$4.90</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".07"><input type="checkbox" id="field_brand"> High-End Brand Buyer</td>
+<td>245</td>
+<td>$0.01</td>
+<td class="price">$2.45</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".14"><input type="checkbox" id="field_garden"> Home &amp; Garden</td>
+<td>490</td>
+<td>$0.01</td>
+<td class="price">$4.90</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".14"><input type="checkbox" id="field_homeimprovement"> Home Improvement</td>
+<td>490</td>
+<td>$0.01</td>
+<td class="price">$4.90</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".03"><input type="checkbox" id="field_luxury"> Luxury Goods &amp; Jewelry</td>
+<td>105</td>
+<td>$0.01</td>
+<td class="price">$1.05</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".22"><input type="checkbox" id="field_magazine"> Magazine Buyer</td>
+<td>770</td>
+<td>$0.01</td>
+<td class="price">$7.70</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".07"><input type="checkbox" id="field_outdoor"> Outdoor &amp; Adventure</td>
+<td>245</td>
+<td>$0.01</td>
+<td class="price">$2.45</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".07"><input type="checkbox" id="field_pets"> Pets</td>
+<td>245</td>
+<td>$0.01</td>
+<td class="price">$2.45</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".14"><input type="checkbox" id="field_sports"> Sports</td>
+<td>490</td>
+<td>$0.01</td>
+<td class="price">$4.90</td>
+</tr>
+<tr class="field">
+<td class="checkbox" rel=".12"><input type="checkbox" id="field_tech"> Technology</td>
+<td>420</td>
+<td>$0.01</td>
+<td class="price">$4.20</td>
+</tr>
+<tr class="field alt-table-row">
+<td class="checkbox" rel=".06"><input type="checkbox" id="field_travel"> Travel</td>
+<td>210</td>
+<td>$0.01</td>
+<td class="price">$2.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="field_tip">
+<div class="field_tip_liner">
+<div class="field_content age">
+<p><strong>Age</strong> ranges from 18 to 65+.</p>
+<p><em class="eg">Values Returned</em><em>18-20</em> <em>21-24</em> <em>25-34</em> <em>35-44</em> <em>45-54</em> <em>55-64</em> <em>65+</em></p>
+<p></p></div>
+<div class="field_content gender">
+<p><strong>Gender</strong> of the individual.</p>
+<p><em class="eg">Values Returned</em><em>Male</em> <em>Female</em></p>
+<p></p></div>
+<div class="field_content zip">
+<p><strong>Zip</strong> code of home address.</p>
+<p><em class="eg">Values Returned</em><em>94105</em> <em>90210</em> <em>10010</em><em class="eg-more">and more...</em>
+    </p>
+<p></p></div>
+<div class="field_content marital">
+<p><strong>Martial Status</strong> of the individual.</p>
+<p><em class="eg">Values Returned</em><em>Single</em><em>Married</em>
+    </p>
+<p></p></div>
+<div class="field_content children">
+<p><strong>Presence of children</strong> in the household.</p>
+<p><em class="eg">Values Returned</em><em>Yes</em><em>No</em>
+    </p>
+<p></p></div>
+<div class="field_content home_owner">
+<p>Whether the individual is a <strong>home owner</strong> or renter.</p>
+<p><em class="eg">Values Returned</em><em>Own</em><em>Rent</em>
+    </p>
+<p></p></div>
+<div class="field_content home_value">
+<p>The <strong>home market value</strong> of the individual's primary residence.</p>
+<p><em class="eg">Values Returned</em><em>1k-25k</em><em>25k-50k</em><em>50k-75k</em><em class="eg-more">and more...</em>
+    </p>
+<p></p></div>
+<div class="field_content home_income">
+<p><strong>Income</strong> for the household.</p>
+<p><em class="eg">Values Returned</em><em>0-15k</em><em>15k-25k</em><em>50k-75k</em><em>75k-100k</em><em>100k-125k</em><em>200k-250k</em><em>250k+</em><em class="eg-more">and more...</em>
+    </p>
+<p></p></div>
+<div class="field_content home_length">
+<p><strong>Length of residence</strong> at the individual's current residence.</p>
+<p><em class="eg">Values Returned</em><em>Less than 1 year</em><em>1 year</em><em>11-15 years</em><em class="eg-more">and more...</em>
+    </p>
+<p></p></div>
+<div class="field_content hnw">
+<p>Indicates the <strong>net worth</strong> of the household</p>
+<p><em class="eg">Values Returned</em><em>0-5k</em><em>5k-10k</em><em>10k-25k</em><em> 25k-50k</em><em>50k-100k</em><em>100k-250k</em><em>250k-500k</em><em> 500k-750k</em><em> 750k-1mm</em><em>1mm+</em>
+    </p>
+<p></p></div>
+<div class="field_content occupation">
+<p>Category of <strong>occupation</strong> for the individual.</p>
+<p><em class="eg">Values Returned</em><em>Blue Collar Worker</em><em>Business Owner</em><em>Technology</em><em>Civil Service</em><em>Health Services</em><em>Homemaker</em><em>Nurse</em><em class="eg-more">and more...</em>
+    </p>
+<p></p></div>
+<div class="field_content education">
+<p>Highest <strong>education</strong> level of the individual.</p>
+<p><em class="eg">Values Returned</em><em>Completed High School</em><em>Attended College</em><em>Completed College</em><em>Completed Graduate School</em><em>Attended Vocational/Technical</em>
+    </p>
+<p></p></div>
+<div class="field_content art">
+<p>Individual is interested in <strong>arts and crafts</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content auto">
+<p>Individual purchases <strong>automotive</strong> goods.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content baby">
+<p>Individual purchases <strong>baby products</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content beauty">
+<p>Individual purchases <strong>beauty</strong> products.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content blogging">
+<p>Individual has an active <strong>blog</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content books">
+<p>Individual enjoys reading and purchasing <strong>books</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content business">
+<p>Individual likes to stay up to date on <strong>business</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content donor">
+<p>Individual makes <strong>charitable donations</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content cooking">
+<p>Individual enjoys <strong>cooking</strong> and purchase cooking magazines.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content discount">
+<p>Individual enjoys hunting for <strong>discounts</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content health">
+<p>Individual purchases <strong>health &amp; wellness</strong> products.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content brand">
+<p>Individual purchases <strong>high end brands</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content garden">
+<p>Individual purchases goods for their <strong>home &amp; garden</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content homeimprovement">
+<p>Individual purchases <strong>home improvement</strong> products.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content luxury">
+<p>Individual purchases <strong>luxury goods &amp; jewelry</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content magazine">
+<p>Individual subscribes to <strong>magazines</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content news">
+<p>Individual likes to stay up to date on <strong>new &amp; current events</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content outdoor">
+<p>Individual enjoys the <strong>outdoors &amp; adventure</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content pets">
+<p>Individual has a <strong>pet</strong> or buys pet products.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content sports">
+<p>Individual plays <strong>sports</strong> and purchases sporting good paraphernalia.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content tech">
+<p>Individual purchases new <strong>technology</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="field_content travel">
+<p>Individual has a keen interest in <strong>travel</strong>.</p>
+<p><em class="eg">Values Returned</em><em>true</em>
+    </p>
+<p></p></div>
+<div class="bottom_liner"></div>
+</div>
+</div>
+<script type="text/javascript">
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.rapleaf.com/pricing-append/";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="none";var OB_recMode="dualBox";var OBITm="1358638651";var OB_Script=true;var OB_langJS="";document.write(unescape("%3Cscript src='https://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script><script src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/OutbrainRater.js" type="text/javascript"></script><div id="outbrain_manager_helper_div" style="display:none;"></div><iframe id="odbPingIframeId" src="https://dashboard.towerdata.com/Rapleaf_Batch_Append_files/comScore.html" frameborder="0" name="odbFrame" style="width:0px;height:0px;display:none;"></iframe><span id="outbrainCurrentPosition"></span><div class="outbrainGlobalClass"></div><div id="outbrain_widget_0" class="OB_default" style="display: block;"></div>
+
+							               	</section><!-- /.entry -->
+
+
+	            </article><!-- /.post -->
+
+
+
+			</section><!-- /#main -->
+
+	        		</div>
+	<br>
+	<br>
+    </div><!-- /#content -->
+
+
+</div><!-- /#wrapper -->
+<iframe id="hubspot-publish-iframe" allowtransparency="true" data-__hs-item="true" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; height: 100%; width: 100%; border: 0px; display: none; background-color: transparent;"></iframe>
+</body></html>
